@@ -8,7 +8,7 @@ def index():
 
 @app.route('/timeline')
 def timeline():
-    # Mockup data for tweets
+    # Mockup data
     posts = [
         {'Majed': 'manager1', 'rate': '30/50'},
         {'Nizar': 'manager2', 'rate': '6/50!'},
