@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify, render_template, redirect, url_for
 from datetime import datetime
 import sqlite3
 
+
 app = Flask(__name__)
 
 
@@ -94,3 +95,4 @@ def after_request(response):
 if __name__ =="__main__":
         create_table()
         app.run()
+
